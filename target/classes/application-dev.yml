@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myblog
+    username: root
+    password: shan007
+logging:
+  level:
+    root: info
+    com.shy: debug
+  file:
+    name: F:\basic-code\myblog\log\blog-dev.log
